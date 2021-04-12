@@ -10,6 +10,7 @@ import {
 
 const initialFormState = { name: "", description: "" };
 
+// Hello
 function App() {
     const [notes, setNotes] = useState([]);
     const [formData, setFormData] = useState(initialFormState);
